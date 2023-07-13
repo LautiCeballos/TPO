@@ -243,6 +243,10 @@ footer ul{
 footer iframe{
     display: none;
 }
+#cart-container {
+    display: flex;
+    align-items: center;
+}
 
 @media (min-width:720px){
     header{
