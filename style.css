@@ -246,7 +246,18 @@ footer iframe{
 #cart-container {
     display: flex;
     align-items: center;
-}
+    margin-right: 20px;
+  }
+  
+  #cart-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #cart-total {
+    font-weight: bold;
+  }
 
 @media (min-width:720px){
     header{
